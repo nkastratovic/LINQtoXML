@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <FTN>
+    <Student Id="1">
+      <Name>
+        <Name>Petar</Name>
+      </Name>
+      <LastName>
+        <LastName>Petrovic</LastName>
+      </LastName>
+      <IndexNo>
+        <IndexNo>101</IndexNo>
+      </IndexNo>
+    </Student>
+    <Student Id="2">
+      <Name>
+        <Name>Marko</Name>
+      </Name>
+      <LastName>
+        <LastName>Markovic</LastName>
+      </LastName>
+      <IndexNo>
+        <IndexNo>102</IndexNo>
+      </IndexNo>
+    </Student>
+    <Student Id="4">
+      <Name>
+        <Name>Jovan</Name>
+      </Name>
+      <LastName>
+        <LastName>Jovanovic</LastName>
+      </LastName>
+      <IndexNo>
+        <IndexNo>104</IndexNo>
+      </IndexNo>
+    </Student>
+  </FTN>
+  <ETF>
+    <Student Id="1">
+      <Name>
+        <Name>Petar</Name>
+      </Name>
+      <LastName>
+        <LastName>Petrovic</LastName>
+      </LastName>
+      <IndexNo>
+        <IndexNo>101</IndexNo>
+      </IndexNo>
+    </Student>
+    <Student Id="2">
+      <Name>
+        <Name>Marko</Name>
+      </Name>
+      <LastName>
+        <LastName>Markovic</LastName>
+      </LastName>
+      <IndexNo>
+        <IndexNo>102</IndexNo>
+      </IndexNo>
+    </Student>
+    <Student Id="4">
+      <Name>
+        <Name>Jovan</Name>
+      </Name>
+      <LastName>
+        <LastName>Jovanovic</LastName>
+      </LastName>
+      <IndexNo>
+        <IndexNo>104</IndexNo>
+      </IndexNo>
+    </Student>
+  </ETF>
+</Students>
