@@ -71,7 +71,7 @@ namespace LINQtoXML
         }
 
         /// <summary>
-        /// Reads data from xml file
+        /// Reads data from XML file
         /// </summary>
         private static void ReadDataFromXml()
         {
@@ -93,9 +93,9 @@ namespace LINQtoXML
         }
 
         /// <summary>
-        /// Reads data from XML and vrite to CSV file
+        /// Reads data from XML and write to CSV file
         /// </summary>
-        /// <param name="filePath">Pato of XML File</param>
+        /// <param name="filePath">Path of XML File</param>
         private static void ConvertXmlToCsv()
         {
             if (File.Exists(filePath))
@@ -150,7 +150,7 @@ namespace LINQtoXML
         /// <summary>
         /// Transform one XML format to another XML format
         /// </summary>
-        /// <param name="filePath">XML filr path</param>
+        /// <param name="filePath">XML file path</param>
         private static void TransformXml()
         {
             XDocument xmlDocument = XDocument.Load(filePath);
@@ -191,7 +191,7 @@ namespace LINQtoXML
             xmlDoc.Validate(xmlSchema, (s,e)=>
             {
                 Console.WriteLine($"XML validation error - {e.Message}");
-                Console.WriteLine($"Please check shema file on location {xsdFilePath}");
+                Console.WriteLine($"Please check schema file on location {xsdFilePath}");
             });
         }
 
